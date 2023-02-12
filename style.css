@@ -1,5 +1,40 @@
 body {
-  margin: 20% auto;
-  width: 50%;
-  height: 75%;
+
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  background-color: #86c7eb;
+  padding: 10px;
+  grid-gap: 5px;
+  justify-content: center;
+}
+
+.calculator{
+  height: 100vh;
+  width: 100vw;
+}
+
+label {
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+input {
+  font-family: sans-serif;
+  color: rgb(116, 116, 116);
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+button {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(116, 116, 116);
+  padding: 5px 5px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  grid-row-start: 4/6;
 }
